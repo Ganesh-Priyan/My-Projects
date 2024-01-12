@@ -41,8 +41,40 @@ nav{
     border: 2px solid black;
     justify-content: center;
     align-items: center;
-    flex-direction: column;    
+    flex-direction: column;
+    background-image: url(images/img.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+
 }
+.sub-section-1,.sub-section-2{
+    margin-bottom: 50px;
+}
+.sub-section-1 h1{
+    margin-bottom: 20px;
+}
+.sub-section-2 input{
+    border:none;
+    padding: 10px; 
+    color: black; 
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+
+}
+.sub-section-2 .btn{
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(79, 79, 242);
+    padding: 10px;
+
+}
+.sub-section-2 input:focus{
+    outline: none;
+}
+
 
 
     
