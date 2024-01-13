@@ -83,9 +83,28 @@ nav{
 .sub-section-2 input::placeholder{
     color:blue;
 }
+.sub-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 50px;
+    padding: 100px;
+}
 
-
-  
-
-
-    
+.box{
+    height: 350px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;   
+    text-align: center;
+}
+.box .course-img{
+    height: 70%;
+    width: 100%;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
