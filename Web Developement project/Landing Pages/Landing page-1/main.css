@@ -69,12 +69,23 @@ nav{
     color: white;
     background-color: rgb(79, 79, 242);
     padding: 10px;
+    transition: background-color 0,9s ease;
 
 }
 .sub-section-2 input:focus{
     outline: none;
+    color: black
+}
+.sub-section-2 .btn:hover{
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.sub-section-2 input::placeholder{
+    color:blue;
 }
 
+
+  
 
 
     
