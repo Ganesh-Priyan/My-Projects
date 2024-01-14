@@ -5,6 +5,19 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body{
+    scrollbar-width: thin;
+    overflow-y: scroll;
+}
+body::-webkit-scrollbar{
+    width: 0;
+}
+
 .Logo h1{
     margin-left: 5em;
     color: rgb(43, 43, 227);
@@ -94,11 +107,15 @@ nav{
 .box{
     height: 350px;
     width: 300px;
-    border: 1px solid black;
+    border: 3px solid skyblue;
     border-radius: 20px;
+    box-shadow: 2px 2px 20px skyblue;
     display: flex;
     flex-direction: column;   
     text-align: center;
+    overflow: hidden;
+    transition: 150ms;
+    position: relative; 
 }
 .box .course-img{
     height: 70%;
@@ -107,4 +124,23 @@ nav{
 img{
     height: 100%;
     width: 100%;
+    overflow: hidden;
+}
+.box:hover{
+    box-shadow: 2px 2px 40px skyblue;
+    border-color: black;
+    color: skyblue;
+}
+.badge{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    pointer-events: none;
+    color: black;
+    font-size:small;
+    outline: 2px solid skyblue;
+    border: 2px solid skyblue;
+    padding: 2px 10px;
 }
