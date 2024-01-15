@@ -28,8 +28,7 @@ nav{
     justify-content: space-between;
     min-height: 40px;
     align-items: center;
-    border-bottom: 2px solid rgb(176, 166, 166)
-
+    border-bottom: 2px solid rgb(176, 166, 166);
 }
 .nav-items li{
     display: inline-block;
